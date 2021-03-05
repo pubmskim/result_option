@@ -1,6 +1,7 @@
 name: result_option
 description: The types that represent the result of the operation. this is useful when designing API requires that an user should handle errors explicitly. 
 version: 1.0.0
+repository: https://github.com/pubmskim/result_option
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
