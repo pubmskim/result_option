@@ -1,4 +1,4 @@
-import 'package:either/either.dart';
+import 'package:result_option/result_option.dart';
 
 class JsonSerdeable {
   final String value1;

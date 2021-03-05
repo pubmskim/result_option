@@ -1,4 +1,4 @@
-import 'package:either/either.dart';
+import 'package:result_option/result_option.dart';
 import 'package:to_string_pretty/to_string_pretty.dart';
 
 Result<List<String>, String> fetchCompanies({required bool startsWithG}) {

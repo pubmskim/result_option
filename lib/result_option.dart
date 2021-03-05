@@ -1,4 +1,4 @@
-library either;
+library result_option;
 
 export 'src/option.dart';
 export 'src/result.dart';

@@ -4,11 +4,11 @@ The types that represent the result of the operation. this is useful when design
 
 ```yaml
 dependencies:
-  either:
+  result_option:
 ```
 
 ```dart
-import 'package:either/either.dart';
+import 'package:result_option/result_option.dart';
 ```
 
 ## Usage
