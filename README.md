@@ -51,3 +51,5 @@ import 'package:result_option/result_option.dart';
 
 ## Features and bugs
 
+[here](https://github.com/pubmskim/result_option/issues)
+
