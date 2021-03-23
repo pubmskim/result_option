@@ -75,3 +75,12 @@ class Result<T, F> {
 Result<T, F> ok<T, F>(T value) => Result<T, F>.ok(value);
 
 Result<T, F> err<T, F>(F error) => Result<T, F>.err(error);
+
+extension ResultSequenceExt<T, F> on Iterable<Result<T, F>> {
+  bool isAllOk() {
+    for (final r in this) {
+      if (r.isErr) return false;
+    }
+    return true;
+  }
+}
