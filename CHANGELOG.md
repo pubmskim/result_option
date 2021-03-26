@@ -1,3 +1,3 @@
-## 1.0.0
+## 1.1.0
 
-- Initial version, created by Stagehand
+- Adds 'Either' that can have one of two types.
