@@ -35,7 +35,7 @@ import 'package:result_option/result_option.dart';
     Result<int, String> failed = err('Calculation failed');
     ```
     
-  - **Handling Multiple Results**
+  - **Handling multiple results**
 
     ```dart
     Result<bool, Failure> r1 = doSomething1();
